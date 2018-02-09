@@ -1,0 +1,23 @@
+{
+  "name": "first-project-on-mac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsforce": "^1.8.0"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.0",
+    "nodemon": "^1.14.12"
+  }
+}
